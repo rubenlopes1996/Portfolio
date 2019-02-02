@@ -73,6 +73,15 @@
     scale: 0
   });
 
+  sr.reveal('.sr-contact-3', {
+    delay: 600,
+    scale: 0
+  });
+  sr.reveal('.sr-contact-4', {
+    delay: 800,
+    scale: 0
+  });
+
   // Magnific popup calls
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
@@ -88,5 +97,13 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+
+    // Hide navbar when modals trigger
+    $('.portfolio-modal').on('show.bs.modal', function(e) {
+      $('.navbar').addClass('d-none');
+    })
+    $('.portfolio-modal').on('hidden.bs.modal', function(e) {
+      $('.navbar').removeClass('d-none');
+    })
 
 })(jQuery); // End of use strict
