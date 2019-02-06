@@ -82,6 +82,63 @@
     scale: 0
   });
 
+  sr.reveal('#css', {
+    delay: 30,
+    scale: 0
+  });
+
+  sr.reveal('#html', {
+    delay: 60,
+    scale: 0
+  });
+
+  sr.reveal('#vue', {
+    delay: 90,
+    scale: 0
+  });
+
+  sr.reveal('#javaScript', {
+    delay: 120,
+    scale: 0
+  });
+
+  sr.reveal('#laravel', {
+    delay: 150,
+    scale: 0
+  });
+
+  sr.reveal('#node', {
+    delay: 180,
+    scale: 0
+  });
+
+  sr.reveal('#android', {
+    delay: 210,
+    scale: 0
+  });
+
+  sr.reveal('#java', {
+    delay: 240,
+    scale: 0
+  });
+
+
+  sr.reveal('#php', {
+    delay: 270,
+    scale: 0
+  });
+
+
+  sr.reveal('#photoshop', {
+    delay: 300,
+    scale: 0
+  });
+
+
+  sr.reveal('#adobexd', {
+    delay: 330,
+    scale: 0
+  });
   // Magnific popup calls
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
